@@ -193,12 +193,23 @@ button:hover {
   line-height: 24px;
   letter-spacing: 2%;
 }
+.first-icons {
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
 
 .section-one {
   display: flex;
-  background-color: #2e2f42;
+  background-color: #2e2f42b2;
+  background-image: url(/images/office-background.png);
+  background-size: cover;
   padding: 188px 0;
+  background-blend-mode: overlay;
 }
+
 .section-two {
   padding: 120px 0;
 }
@@ -300,6 +311,14 @@ img {
 .second-nav {
   padding: 24px 0;
 }
+
+.second-nav:hover {
+  border-bottom: 4px solid #404bbf;
+  border-radius: 2px;
+  border-top: 44px;
+  padding-bottom: 20px;
+}
+
 .title-three {
   margin-bottom: 72px;
   font-weight: 700;
