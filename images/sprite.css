@@ -3,44 +3,29 @@
   background-repeat: no-repeat;
   background-image: url(sprite.svg);
 }
-.icon-antenna {
+.icon-Ellipse {
   width: 32px;
   height: 32px;
   background-position: 0 0;
 }
-.icon-astronaut {
+.icon-graph {
   width: 32px;
   height: 32px;
   background-position: -48px 0;
 }
-.icon-clock {
+.icon-antenna {
   width: 32px;
   height: 32px;
   background-position: -96px 0;
 }
-.icon-facebook {
+.icon-astronaut {
   width: 32px;
   height: 32px;
   background-position: -144px 0;
 }
-.icon-graph {
+.icon-clock {
   width: 32px;
   height: 32px;
   background-position: -192px 0;
-}
-.icon-instagram {
-  width: 32px;
-  height: 32px;
-  background-position: -240px 0;
-}
-.icon-linkedin {
-  width: 32px;
-  height: 32px;
-  background-position: -288px 0;
-}
-.icon-twitter {
-  width: 32px;
-  height: 32px;
-  background-position: -336px 0;
 }
 
