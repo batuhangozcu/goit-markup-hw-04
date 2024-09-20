@@ -194,11 +194,16 @@ button:hover {
   letter-spacing: 2%;
 }
 .first-icons {
-  background-color: #f4f4fd;
   width: 264px;
   height: 112px;
-  border: 1px solid #8e8f99;
+  border: 1px solid #8E8F99;
   border-radius: 4px;
+}
+
+.second-icons {
+  border: 1px solid red;
+  width: 232px;
+  height: 40px;
 }
 
 .section-one {
