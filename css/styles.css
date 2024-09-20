@@ -203,7 +203,7 @@ button:hover {
 
 .section-one {
   display: flex;
-  background-color: #2e2f42b2;
+  background-color: rgba(46, 47, 66, 0.7);
   background-image: url(/images/office-background.png);
   background-size: cover;
   padding: 188px 0;
