@@ -211,6 +211,13 @@ button:hover {
   height: 40px;
 }
 
+.footer-media {
+  display: inline;
+  width:208px;
+  height: 80px;
+}
+
+
 .section-one {
   display: flex;
   background-color: rgba(46, 47, 66, 0.7);
