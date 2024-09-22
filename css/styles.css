@@ -196,13 +196,20 @@ button:hover {
 .first-icons {
   width: 264px;
   height: 112px;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 
 .second-icons {
   border: 1px solid red;
-  width: 232px;
+}
+.social {
+  display: flex;
+  gap: 24px;
+}
+
+.social-icons {
+  width: 40px;
   height: 40px;
 }
 
