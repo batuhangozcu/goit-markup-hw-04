@@ -135,18 +135,17 @@ button:hover {
   gap: 24px;
 }
 
-.our-team li {
+.team-members {
   text-align: center;
   line-height: 0.1;
   background-color: #ffffff;
   border-radius: 4px;
   margin-inline: 10px;
   box-shadow: 1px 1px #2e2f4229;
-}
-.team-members {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+
 .member-cards {
   padding: 32px 0;
 }
@@ -201,11 +200,13 @@ button:hover {
 }
 
 .second-icons {
-  border: 1px solid red;
+
 }
 .social {
   display: flex;
   gap: 24px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .social-icons {
