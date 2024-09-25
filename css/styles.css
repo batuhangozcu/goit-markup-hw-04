@@ -260,29 +260,12 @@ footer .container {
   display: flex;
 }
 
-#icon-facebook {
-  transition: fill 0.3s ease;
+.second-icons {
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-#icon-instagram {
-  transition: fill 0.3s ease;
-}
-#icon-twitter {
-  transition: fill 0.3s ease;
-}
-#icon-linkedin {
-  transition: fill 0.3s ease;
-}
-#icon-facebook:hover {
-  --color1: #31d0aa;
-}
-#icon-instagram:hover {
-  --color1: #31d0aa;
-}
-#icon-twitter:hover {
-  --color1: #31d0aa;
-}
-#icon-linkedin:hover {
-  --color1: #31d0aa;
+.second-icons:hover {
+  --color1:#31d0aa
 }
 
 .social-title {
