@@ -263,13 +263,30 @@ footer .container {
 .second-icons  {
   transition: fill 0.3s ease;
 }
-.second-icons:hover {
-  --color1:black
+#icon-facebook {
+  transition: fill 0.3s ease;
 }
-.second-icons:hover {
-  stroke: #31d0aa;
+#icon-instagram {
+  transition: fill 0.3s ease;
 }
-
+#icon-twitter{
+  transition: fill 0.3s ease;
+}
+#icon-linkedin{
+  transition: fill 0.3s ease;
+}
+#icon-facebook:hover {
+  --color1: #31d0aa
+}
+#icon-instagram:hover {
+  --color1: #31d0aa
+}
+#icon-twitter:hover {
+  --color1: #31d0aa
+}
+#icon-linkedin:hover {
+  --color1: #31d0aa
+}
 
 .social-title {
   padding-left: 10px;
