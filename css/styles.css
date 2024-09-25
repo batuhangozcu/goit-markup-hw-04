@@ -262,17 +262,14 @@ footer .container {
 
 .second-icons  {
   transition: fill 0.3s ease;
-  ;
 }
 .second-icons:hover {
-  background-color: #31d0aa;
+  --color1:black
 }
-
 .second-icons:hover {
   stroke: #31d0aa;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .social-title {
   padding-left: 10px;
