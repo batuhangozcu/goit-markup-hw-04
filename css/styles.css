@@ -260,32 +260,29 @@ footer .container {
   display: flex;
 }
 
-.second-icons  {
-  transition: fill 0.3s ease;
-}
 #icon-facebook {
   transition: fill 0.3s ease;
 }
 #icon-instagram {
   transition: fill 0.3s ease;
 }
-#icon-twitter{
+#icon-twitter {
   transition: fill 0.3s ease;
 }
-#icon-linkedin{
+#icon-linkedin {
   transition: fill 0.3s ease;
 }
 #icon-facebook:hover {
-  --color1: #31d0aa
+  --color1: #31d0aa;
 }
 #icon-instagram:hover {
-  --color1: #31d0aa
+  --color1: #31d0aa;
 }
 #icon-twitter:hover {
-  --color1: #31d0aa
+  --color1: #31d0aa;
 }
 #icon-linkedin:hover {
-  --color1: #31d0aa
+  --color1: #31d0aa;
 }
 
 .social-title {
@@ -307,7 +304,7 @@ footer .container {
   padding: 188px 0;
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(/images/office-background.png) center / cover no-repeat;
+    url(../images/office-background.png) center / cover no-repeat;
 }
 
 .section-two {
