@@ -405,13 +405,10 @@ img {
   gap: 40px;
 }
 
-.second-nav {
-  padding: 24px 0;
-}
-
 .underline {
-  position: fixed;
-  margin-top: 44px;
+  position: absolute;
+  margin-top: 22x;
+  top: 61px;
   opacity: 0;
   width: 70px;
   height: 55px;
@@ -420,9 +417,6 @@ img {
   transition-property: opacity;
 }
 
-.underline:hover {
-  opacity: 1;
-}
 .second-nav:hover + .underline {
   opacity: 1;
 }
