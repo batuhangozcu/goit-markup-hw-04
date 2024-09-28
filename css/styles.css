@@ -279,7 +279,7 @@ footer .container {
   transition-property: --color1;
 }
 .second-icons:hover {
-  --color1:#31d0aa;
+  --color1: #31d0aa;
   cursor: pointer;
 }
 
@@ -410,27 +410,26 @@ img {
 }
 
 .underline {
-position:fixed;
-margin-top: 44px;
-opacity: 0;
-width: 70px;
-height: 55px;
-transition: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition-property: opacity;
+  position: fixed;
+  margin-top: 44px;
+  opacity: 0;
+  width: 70px;
+  height: 55px;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
 }
 
 .underline:hover {
-  opacity:1
+  opacity: 1;
 }
 .second-nav:hover + .underline {
   opacity: 1;
 }
 
 .ul-nav li {
-  display:flex;
+  display: flex;
   flex-direction: column;
-
 }
 
 .title-three {
