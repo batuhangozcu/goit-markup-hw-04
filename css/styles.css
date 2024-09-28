@@ -44,6 +44,9 @@ nav a {
   letter-spacing: 2%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 nav a:hover {
@@ -60,6 +63,9 @@ address a {
   color: #434455;
   font-style: normal;
   padding-left: 30px;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 address a:hover {
@@ -91,6 +97,12 @@ address a:hover {
   margin-left: 43%;
   display: block;
   border: none;
+}
+
+button {
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 button:hover {
@@ -182,12 +194,13 @@ button:hover {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portf {
-  width: calc((100%-72px) / 3);
-}
 
 .portf {
   position: relative;
+  transition: 2500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
+  width: calc((100%-72px) / 3);
 }
 
 .image {
@@ -199,7 +212,6 @@ button:hover {
 .overlay {
   position: absolute;
   height: 300px;
-  margin: 0;
   top: 0;
   bottom: 0;
   left: 0;
@@ -207,6 +219,7 @@ button:hover {
   opacity: 0;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
   background-color: #4d5ae5;
 }
 
@@ -263,9 +276,11 @@ footer .container {
 .second-icons {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: --color1;
 }
 .second-icons:hover {
-  --color1:#31d0aa
+  --color1:#31d0aa;
+  cursor: pointer;
 }
 
 .social-title {
@@ -288,6 +303,9 @@ footer .container {
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
     url(../images/office-background.png) center / cover no-repeat;
+  align-items: center;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 .section-two {
@@ -370,7 +388,6 @@ span {
 
 .header div {
   display: flex;
-  margin: 0 auto;
   align-items: center;
 }
 
@@ -392,11 +409,28 @@ img {
   padding: 24px 0;
 }
 
-.second-nav:hover {
-  border-bottom: 4px solid #404bbf;
-  border-radius: 2px;
-  border-top: 44px;
-  padding-bottom: 20px;
+.underline {
+position:fixed;
+margin-top: 44px;
+opacity: 0;
+width: 70px;
+height: 55px;
+transition: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-property: opacity;
+}
+
+.underline:hover {
+  opacity:1
+}
+.second-nav:hover + .underline {
+  opacity: 1;
+}
+
+.ul-nav li {
+  display:flex;
+  flex-direction: column;
+
 }
 
 .title-three {
@@ -412,7 +446,6 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
