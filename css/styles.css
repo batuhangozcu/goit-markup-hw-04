@@ -276,7 +276,7 @@ footer .container {
 .second-icons {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: --color1;
+  transition-property: color;
 }
 .second-icons:hover {
   --color1: #31d0aa;
