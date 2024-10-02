@@ -128,18 +128,19 @@ button:hover {
   gap: 24px;
 }
 
-.menu-li {
+.menu-li-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
   color: #2e2f42;
   width: calc((100% - 72px) / 4);
+
 }
 
 
 .page-menu-list p {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -369,7 +370,6 @@ li {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
