@@ -5,14 +5,24 @@ main {
 
 .header {
   display: flex;
-  align-items: center;
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto ;
 }
 .ul-nav {
   display: flex;
-  margin-right: 230px;
+  gap: 40px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-ul {
+  display: flex;
   gap: 40px;
 }
 
@@ -23,7 +33,6 @@ main {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 3%;
-  margin-right: 76px;
 }
 .title-footer {
   font-family: "raleway";
@@ -33,7 +42,10 @@ main {
   line-height: 1;
   letter-spacing: 3%;
   display: inline-block;
-  margin-bottom: 16px;
+}
+
+.first-nav {
+  display: flex;
 }
 nav a {
   list-style-type: none;
@@ -53,6 +65,7 @@ nav a:hover {
   color: #404bbf;
 }
 
+
 address a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -62,7 +75,6 @@ address a {
   letter-spacing: 2%;
   color: #434455;
   font-style: normal;
-  padding-left: 30px;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
@@ -79,8 +91,6 @@ address a:hover {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
-  padding-left: 29%;
-  margin-bottom: 50px;
 }
 
 .button-one {
@@ -94,7 +104,6 @@ address a:hover {
   padding: 15px 0 15px 0;
   cursor: pointer;
   border-radius: 4px;
-  margin-left: 43%;
   display: block;
   border: none;
 }
@@ -113,6 +122,12 @@ button:hover {
   gap: 24px;
 }
 
+.section-one .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .menu-li {
   font-weight: 500;
   font-size: 20px;
@@ -121,9 +136,7 @@ button:hover {
   color: #2e2f42;
   width: calc((100% - 72px) / 4);
 }
-.menu-li-h {
-  margin-bottom: 8px;
-}
+
 
 .page-menu-list p {
   font-weight: 400px;
@@ -145,6 +158,7 @@ button:hover {
 .our-team {
   display: flex;
   gap: 24px;
+  justify-content: space-between;
 }
 
 .team-members {
@@ -152,26 +166,21 @@ button:hover {
   line-height: 0.1;
   background-color: #ffffff;
   border-radius: 4px;
-  margin-inline: 10px;
   box-shadow: 1px 1px #2e2f4229;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
 .member-cards {
   padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
-.members {
-  text-align: center;
-  margin-bottom: 8px;
-}
+
 .position {
   text-align: center;
 }
 
-.section-three h2 {
-  padding-bottom: 70px;
-}
 .section-three h3 {
   font-size: 20px;
   font-weight: 500;
@@ -179,7 +188,6 @@ button:hover {
 .section-three p {
   font-size: 16px;
   font-weight: 400;
-  padding-top: 30px;
 }
 
 .our-portfolio {
@@ -260,9 +268,9 @@ button:hover {
 .social {
   display: flex;
   gap: 24px;
-  margin-top: 20px;
-  margin-left: 10px;
+  justify-content: center;
 }
+
 
 .social-icons {
   width: 40px;
@@ -271,6 +279,7 @@ button:hover {
 
 footer .container {
   display: flex;
+  gap: 75px;
 }
 
 .second-icons {
@@ -293,9 +302,6 @@ footer .container {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.footer-media {
-  margin-left: 100px;
-}
 
 .section-one {
   display: flex;
@@ -337,6 +343,7 @@ footer .container {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
+
 
 .footer-p {
   font-weight: 400;
@@ -386,29 +393,14 @@ span {
   padding: 0 15px;
 }
 
-.header div {
-  display: flex;
-  align-items: center;
-}
-
 img {
   display: block;
 }
 
-.first-nav {
-  display: flex;
-  align-items: center;
-}
-
-.nav-ul {
-  display: flex;
-  gap: 40px;
-}
 
 .underline {
   position: absolute;
-  margin-top: 22x;
-  top: 61px;
+  top: 68px;
   opacity: 0;
   width: 70px;
   height: 55px;
